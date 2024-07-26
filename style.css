@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.calculator{
+    background-color: gainsboro;
+    max-width: 350px;
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 30px;
+    box-shadow: 3px 5px 15px;
+}
+.leftSide{
+    text-align: center;
+}
+.leftSide h1{
+    padding-bottom: 8px;
+}
+.headerArea{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px 15px 0px 0px;
+}
+.bb{
+    padding-top: 2px;
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+}
+.headerArea .rightSide .box{
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgb(79, 25, 25);
+}
+.rightSide p{
+    text-align: right;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.disBox{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(187, 194, 199);
+}
+.b1 input{
+    padding: 15px 17px;
+    border-radius: 30px 10px 10px 30px;
+    background-color: rgb(157, 76, 232);
+}
+.b2 input{
+    padding: 15px 17px;
+    border-radius: 30px 10px 10px 30px;
+    background-color: rgb(157, 76, 232);
+}
+.b3 input{
+    padding: 30px 40px;
+    border-radius: 50%;
+    background-color: rgb(157, 76, 232);
+}
+.b4 input{
+    padding: 15px 17px;
+    border-radius: 10px 30px 30px 10px;
+    background-color: rgb(157, 76, 232);
+}
+.b5 input{
+    padding: 15px 17px;
+    border-radius: 10px 30px 30px 10px;
+    background-color: rgb(157, 76, 232);
+}
+.b1{
+    grid-area: b1;
+}
+.b2{
+    grid-area: b2;
+}
+.b3{
+    grid-area: b3;
+}
+.b4{
+    grid-area: b4;
+}
+.b5{
+    grid-area: b5;
+}
+.functionArea{
+    display: grid;
+    grid-template-areas: 
+    'b1 b2 b3 b3 b4 b5'
+    ;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.bb1 input{
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 7px 7px 18px 18px;
+}
+.bb2 input{
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 7px 7px 18px 18px;
+}
+.bb3 input{
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 7px 7px 18px 18px;
+}
+.bb4 input{
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 7px 7px 18px 18px;
+}
+.bb5 input{
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 7px 7px 18px 18px;
+}
+.bb6 input{
+    padding: 6px 22px;
+    background-color: black;
+    border-radius: 7px 7px 18px 18px;
+}
+.bb1{
+    grid-area: bb1;
+}
+.bb2{
+    grid-area: bb2;
+}
+.bb3{
+    grid-area: bb3;
+}
+.bb4{
+    grid-area: bb4;
+}
+.bb5{
+    grid-area: bb5;
+}
+.bb6{
+    grid-area: bb6;
+}
+.blackButton{
+    padding: 3px 0px;
+    display: grid;
+    grid-template-areas:
+        'bb1 bb2 bb3 bb4 bb5 bb6'
+    ;
+    text-align: center;
+}
+#bx{
+    background-color: transparent;
+    border: none;
+}
+.wb1 input{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 8px 8px 18px 18px;
+}
+.wb2 input{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 8px 8px 18px 18px;
+}
+.wb3 input{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 8px 8px 18px 18px;
+}
+.wb4 input{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 8px 8px 18px 18px;
+}
+.wb5 input{
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 8px 8px 18px 18px;
+}
+.wb1{
+    grid-area: wb1;
+}
+.wb2{
+    grid-area: wb2;
+}
+.wb3{
+    grid-area: wb3;
+}
+.wb4{
+    grid-area: wb4;
+}
+.wb5{
+    grid-area: wb5;
+}
+.whiteButton{
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas: 
+        'wb1 wb2 wb3 wb4 wb5'
+    ;
+    text-align: center;
+}
+#wbtn{
+    margin-top: 30px;
+}
+.whiteButton input{
+    box-shadow: 1px 2px 5px gray;
+}
+#myColour{
+    background-color: rgb(235, 243, 9);
+}
+#last{
+    padding-bottom: 10px;
+}
